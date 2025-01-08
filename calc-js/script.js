@@ -1,18 +1,18 @@
-// Seleciona elementos
+
 const visor = document.getElementById('visor');
 const botoes = document.querySelectorAll('button');
 
-// Variáveis
+
 let operacao = '';
 let valor1 = '';
 let valor2 = '';
 
-// Função para atualizar visor
+
 function atualizarVisor(valor) {
   visor.value += valor;
 }
 
-// Função para limpar visor
+
 function limparVisor() {
   visor.value = '';
   operacao = '';
@@ -20,7 +20,7 @@ function limparVisor() {
   valor2 = '';
 }
 
-// Função para calcular operação
+
 function calcular() {
   if (operacao === '+') {
     return parseFloat(valor1) + parseFloat(valor2);
@@ -33,7 +33,7 @@ function calcular() {
   }
 }
 
-// Eventos
+
 botoes.forEach((botao) => {
   botao.addEventListener('click', () => {
     switch ((link unavailable)) {
